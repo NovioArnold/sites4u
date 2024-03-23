@@ -1,0 +1,40 @@
+body{
+    max-width: 1000px;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+p{
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a::selection{
+    color: white;
+    font-size: larger+10px;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5vh 5vh 5vh 5vh;
+}
